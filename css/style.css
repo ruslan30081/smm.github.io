@@ -267,6 +267,7 @@ h6 {
 }
 
 .page {
+  background-color: #E8E8E8;
   font-weight: 400;
 }
 .main {
@@ -511,6 +512,7 @@ h6 {
   margin-bottom: 20px;
 }
 .services__btn-request {
+  cursor: pointer;
   background-color: #34D0BA;
   font-size: 24px;
   border-radius: 20px;
@@ -559,6 +561,7 @@ h6 {
   font-weight: 400;
 }
 .review__btn {
+  cursor: pointer;
   display: inline-block;
   background-color: #34D0BA;
   border-radius: 63px;
