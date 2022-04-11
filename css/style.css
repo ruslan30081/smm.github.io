@@ -203,6 +203,7 @@ h6 {
 }
 */
 .footer {
+  background-color: #E8E8E8;
   font-size: 24px;
   font-weight: 400;
 }
@@ -264,6 +265,10 @@ h6 {
 }
 .footer__soc-item:not(:last-child) {
   margin-right: 25px;
+}
+
+.footer-case {
+  background-color: #DCC5C5;
 }
 
 .page {
@@ -570,4 +575,12 @@ h6 {
   color: #fff;
   margin: 0 auto;
   margin-top: 88px;
+}
+
+.page__case {
+  background-color: #DCC5C5;
+}
+
+.case__body {
+  padding-top: 200px;
 }
