@@ -6,7 +6,7 @@
 	<meta charset="UTF-8">
 	<meta name="format-detection" content="telephone=no">
 	<!-- <style>body{opacity: 0;}</style> -->
-	<link rel="stylesheet" href="css/style.min.css?_v=20220411135848">
+	<link rel="stylesheet" href="css/style.min.css?_v=20220414001058">
 	<link rel="shortcut icon" href="favicon.ico">
 	<!-- <meta name="robots" content="noindex, nofollow"> -->
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -19,20 +19,234 @@
 				<div class="header__body">
 					<div class="header__wrap">
 						<div class="header__logo"><img src="img/icons/logo.svg" alt=""></div>
-						<ul class="header__list">
-							<li class="header__link"><a data-goto-header="75" data-goto-top="25" data-goto=".page__main" href="#">Главная</a></li>
-							<li class="header__link"><a data-goto-header="75" data-goto-top="25" data-goto=".page__garant" href="#">Гарантия</a></li>
-							<li class="header__link"><a data-goto-header="75" data-goto-top="25" data-goto=".page__services" href="#">Услуги</a></li>
-							<li class="header__link"><a href="#">Кейсы</a></li>
-							<li class="header__link"><a data-goto-header="75" data-goto-top="25" data-goto=".page__review" href="#">Отзывы</a></li>
+						<ul data-da=".header__menu, 768" class="header__list">
+							<li class="header__link"><a data-goto-header="75" data-goto-top="25" href="index.html">Главная</a></li>
+							<li class="header__link"><a data-goto-header="75" data-goto-top="25" href="index.html#page__garant">Гарантия</a></li>
+							<li class="header__link"><a data-goto-header="75" data-goto-top="25" href="index.html#page__services">Услуги</a></li>
+							<li class="header__link"><a href="case.html">Кейсы</a></li>
+							<li class="header__link"><a data-goto-header="75" data-goto-top="25" href="index.html#page__review">Отзывы</a></li>
 						</ul>
 					</div>
 					<a class="header__phone" href="tel:88009878082">8 (800)-987-80-82</a>
+					<button type="button" class="menu__icon icon-menu"><span></span></button>
 				</div>
 			</div>
 		</header>
 		<main class="page">
-			<img src="img/cover.jpg" alt="">
+			<section class="page__admin admin">
+
+				<div class="admin">
+					<div class="admin__container">
+						<div class="admin__wrap">
+							<div class="admin__title-first">Администрирование</div>
+							<div class="admin__exit">Выйти</div>
+						</div>
+
+						<div class="admin__items">
+							<div class="admin__item">
+								<div class="admin__item-flex">
+									<p class="admin__name">имя: Данил</p>
+									<p class="admin__phone">телефон: 89097856777</p>
+									<p class="admin__email">Почта: info@mail.ru</p>
+								</div>
+								<div class="admin__item-flex">
+									<p class="admin__company">компания: мир пирогов </p>
+									<p class="admin__activity">деятельность: продажа пирогов </p>
+									<p class="admin__serv">Название услуги: Пакет №1 - Старт </p>
+								</div>
+								<div class="admin__item-flex">
+									<p class="admin__price">цена: 35.000р</p>
+								</div>
+								<div class="admin__item-flex">
+									<div class="admin__btn admin__btn_accept">принять</div>
+									<div class="admin__btn admin__btn_reject">отклонить</div>
+								</div>
+							</div>
+							<div class="admin__item">
+								<div class="admin__item-flex">
+									<p class="admin__name">имя: Данил</p>
+									<p class="admin__phone">телефон: 89097856777</p>
+									<p class="admin__email">Почта: info@mail.ru</p>
+								</div>
+								<div class="admin__item-flex">
+									<p class="admin__company">компания: мир пирогов </p>
+									<p class="admin__activity">деятельность: продажа пирогов </p>
+									<p class="admin__serv">Название услуги: Пакет №1 - Старт </p>
+								</div>
+								<div class="admin__item-flex">
+									<p class="admin__price">цена: 35.000р</p>
+								</div>
+								<div class="admin__item-flex">
+									<div class="admin__btn admin__btn_accept">принять</div>
+									<div class="admin__btn admin__btn_reject">отклонить</div>
+								</div>
+							</div>
+							<div class="admin__item">
+								<div class="admin__item-flex">
+									<p class="admin__name">имя: Данил</p>
+									<p class="admin__phone">телефон: 89097856777</p>
+									<p class="admin__email">Почта: info@mail.ru</p>
+								</div>
+								<div class="admin__item-flex">
+									<p class="admin__company">компания: мир пирогов </p>
+									<p class="admin__activity">деятельность: продажа пирогов </p>
+									<p class="admin__serv">Название услуги: Пакет №1 - Старт </p>
+								</div>
+								<div class="admin__item-flex">
+									<p class="admin__price">цена: 35.000р</p>
+								</div>
+								<div class="admin__item-flex">
+									<div class="admin__btn admin__btn_accept">принять</div>
+									<div class="admin__btn admin__btn_reject">отклонить</div>
+								</div>
+							</div>
+						</div>
+
+
+
+
+						<!-- //======================================================================================================================================================== -->
+
+						<div class="admin__title">Кейсы</div>
+						<div class="admin__case-items">
+							<form action="#" method="POST" data-ajax class="admin__case-item">
+								<div class="admin__case-title">Добавить Кейс</div>
+
+								<div class="admin__case-name-inp">имя кейса</div>
+								<input autocomplete="off" type="text" name="form[]" data-error="Ошибка" placeholder="" class="input">
+
+								<div class="admin__case-name-inp">соцсеть кейса</div>
+								<select name="form[]" class="form">
+									<option value="vk" selected>vk</option>
+									<option value="ok">OK</option>
+								</select>
+
+								<div class="admin__case-name-inp">Ссылка кейса</div>
+								<input autocomplete="off" type="text" name="form[]" data-error="Ошибка" placeholder="" class="input">
+
+								<div class="admin__btn-case-add admin__btn-management">Добавить</div>
+							</form>
+							<form action="#" method="POST" data-ajax class="admin__case-item">
+								<div class="admin__case-title">Изменить Кейсы</div>
+
+								<div class="admin__case-name-inp">выбрать Кейсы</div>
+								<select name="form[]" class="form">
+
+								</select>
+
+								<div class="admin__case-name-inp">имя кейса</div>
+								<input autocomplete="off" type="text" name="form[]" data-error="Ошибка" placeholder="" class="input">
+
+								<div class="admin__case-name-inp">соцсеть кейса</div>
+								<select name="form[]" class="form">
+									<option value="vk" selected>vk</option>
+									<option value="ok">OK</option>
+								</select>
+
+								<div class="admin__case-name-inp">Ссылка кейса</div>
+								<input autocomplete="off" type="text" name="form[]" data-error="Ошибка" placeholder="" class="input">
+
+								<div class="admin__btn-case-add admin__btn-management">Изменить</div>
+							</form>
+							<form action="#" method="POST" data-ajax class="admin__case-item">
+								<div class="admin__case-title">Удалить Кейсы</div>
+
+								<div class="admin__case-name-inp">выбрать Кейсы</div>
+								<select name="form[]" class="form">
+
+								</select>
+
+								<div class="admin__btn-case-add admin__btn-management">Удалить</div>
+							</form>
+						</div>
+
+						<!-- //======================================================================================================================================================== -->
+						<div class="admin__title">Пакеты услуг</div>
+						<div class="admin__service-items">
+							<form action="#" method="POST" data-ajax class="admin__service-item">
+								<div class="admin__service-title">Добавить услугу</div>
+
+								<div class="admin__service-name-inp">название услуги</div>
+								<input autocomplete="off" type="text" name="form[]" data-error="Ошибка" placeholder="" class="input">
+
+								<div class="admin__service-name-inp">описание услуги</div>
+								<textarea autocomplete="off" name="form[]" placeholder="описание" data-error="Ошибка" class="input"></textarea>
+
+								<div class="admin__btn-service-add admin__btn-management">Добавить</div>
+							</form>
+							<form action="#" method="POST" data-ajax class="admin__service-item">
+								<div class="admin__service-title">Изменить услугу</div>
+
+								<div class="admin__service-name-inp">выбрать услугу</div>
+								<select name="form[]" class="form">
+
+								</select>
+
+								<div class="admin__service-name-inp">название услуги</div>
+								<input autocomplete="off" type="text" name="form[]" data-error="Ошибка" placeholder="" class="input">
+
+								<div class="admin__service-name-inp">услуга</div>
+								<textarea autocomplete="off" name="form[]" placeholder="" data-error="Ошибка" class="input"></textarea>
+
+								<div class="admin__btn-service-add admin__btn-management">Изменить</div>
+							</form>
+							<form action="#" method="POST" data-ajax class="admin__service-item">
+								<div class="admin__service-title">Удалить услугу</div>
+
+								<div class="admin__service-name-inp">выбрать услугу</div>
+								<select name="form[]" class="form">
+
+								</select>
+
+								<div class="admin__btn-service-add admin__btn-management">Удалить</div>
+							</form>
+						</div>
+
+						<!-- //======================================================================================================================================================== -->
+						<div class="admin__title">Отзывы</div>
+
+						<div class="admin__feedback-items">
+							<form action="#" method="POST" data-ajax class="admin__feedback-item">
+								<div class="admin__feedback-title">Добавить отзыв</div>
+
+								<div class="admin__feedback-name-inp">имя и фамилия</div>
+								<input autocomplete="off" type="text" name="form[]" data-error="Ошибка" placeholder="" class="input">
+
+								<div class="admin__feedback-name-inp">Отзыв</div>
+								<textarea autocomplete="off" name="form[]" placeholder="описание" data-error="Ошибка" class="input"></textarea>
+
+								<div class="admin__btn-feedback-add admin__btn-management">Добавить</div>
+							</form>
+							<form action="#" method="POST" data-ajax class="admin__feedback-item">
+								<div class="admin__feedback-title">Изменить отзыв</div>
+
+								<div class="admin__feedback-name-inp">выбрать отзыв</div>
+								<select name="form[]" class="form">
+
+								</select>
+
+								<div class="admin__feedback-name-inp">имя и фамилия</div>
+								<input autocomplete="off" type="text" name="form[]" data-error="Ошибка" placeholder="" class="input">
+
+								<div class="admin__feedback-name-inp">Отзыв</div>
+								<textarea autocomplete="off" name="form[]" placeholder="" data-error="Ошибка" class="input"></textarea>
+
+								<div class="admin__btn-feedback-add admin__btn-management">Изменить</div>
+							</form>
+							<form action="#" method="POST" data-ajax class="admin__feedback-item">
+								<div class="admin__feedback-title">Удалить отзыв</div>
+
+								<div class="admin__feedback-name-inp">выбрать отзыв</div>
+								<select name="form[]" class="form">
+
+								</select>
+
+								<div class="admin__btn-feedback-add admin__btn-management">Удалить</div>
+							</form>
+						</div>
+					</div>
+				</div>
+			</section>
 		</main>
 		<footer class="footer">
 			<div class="footer__container">
@@ -76,7 +290,7 @@
 </div>
  -->
 
-	<script src="js/app.min.js?_v=20220411135848"></script>
+	<script src="js/app.min.js?_v=20220414001058"></script>
 </body>
 
 </html>

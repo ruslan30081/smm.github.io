@@ -6,7 +6,7 @@
 	<meta charset="UTF-8">
 	<meta name="format-detection" content="telephone=no">
 	<!-- <style>body{opacity: 0;}</style> -->
-	<link rel="stylesheet" href="css/style.min.css?_v=20220411135848">
+	<link rel="stylesheet" href="css/style.min.css?_v=20220414001058">
 	<link rel="shortcut icon" href="favicon.ico">
 	<!-- <meta name="robots" content="noindex, nofollow"> -->
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -14,20 +14,27 @@
 
 <body>
 	<div class="wrapper">
+		<div class="header__menu menu">
+
+
+
+		</div>
+
 		<header class="header">
 			<div class="header__container">
 				<div class="header__body">
 					<div class="header__wrap">
 						<div class="header__logo"><img src="img/icons/logo.svg" alt=""></div>
-						<ul class="header__list">
+						<ul data-da=".header__menu, 768" class="header__list">
 							<li class="header__link"><a data-goto-header="75" data-goto-top="25" data-goto=".page__main" href="#">Главная</a></li>
 							<li class="header__link"><a data-goto-header="75" data-goto-top="25" data-goto=".page__garant" href="#">Гарантия</a></li>
 							<li class="header__link"><a data-goto-header="75" data-goto-top="25" data-goto=".page__services" href="#">Услуги</a></li>
-							<li class="header__link"><a href="#">Кейсы</a></li>
+							<li class="header__link"><a href="case.html">Кейсы</a></li>
 							<li class="header__link"><a data-goto-header="75" data-goto-top="25" data-goto=".page__review" href="#">Отзывы</a></li>
 						</ul>
 					</div>
 					<a class="header__phone" href="tel:88009878082">8 (800)-987-80-82</a>
+					<button type="button" class="menu__icon icon-menu"><span></span></button>
 				</div>
 			</div>
 		</header>
@@ -50,14 +57,17 @@
 							</div>
 						</div>
 						<div class="main__right">
-							<div class="main__image"><img src="img/header/1.png" alt=""></div>
+							<div class="main__image"><img src="img/header/3.png" alt=""></div>
 						</div>
 					</div>
 				</div>
 			</section>
 			<section class="page__market market">
+				<div class="market__body-poldoj">
+					<img class="market__podloj" src="img/header/podlojka.svg" alt="">
+				</div>
+
 				<div class="market__container _container">
-					<img src="img/header/podlojka.svg" alt="">
 
 					<div class="market__body">
 						<div class="market__wrap-agent">
@@ -212,7 +222,7 @@
 								<div class="review__text">Помните я говорила, что ВК какая-то мертвая сеть, там одни дети. Вот теперь вижу, что она очень живая. Из инсты записалось двое, из ФБ четверо, а из ВК несколько десятков.</div>
 							</div>
 						</div>
-						<div class="review__btn">Просмотр кейсов </div>
+						<a href="case.html" class="review__btn">Просмотр кейсов </a>
 					</div>
 				</div>
 			</section>
@@ -259,7 +269,7 @@
 </div>
  -->
 
-	<script src="js/app.min.js?_v=20220411135848"></script>
+	<script src="js/app.min.js?_v=20220414001058"></script>
 </body>
 
 </html>
